@@ -92,7 +92,39 @@
 <body>
     <div class="background-pattern"></div>
 
-    <div class="container">
+    <!-- Navigation -->
+    <?php
+        session_start();
+     ?>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.php">BOS BARBERSHOP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.php">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.php">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
         <div class="register-container">
             <div class="logo">
                 <h2>ADD LOCATION</h2>
@@ -101,7 +133,6 @@
 
             <form method="POST">
             <?php
-                session_start();
                 require 'config/database.php';
                 require 'config/admins.php';
             

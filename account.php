@@ -19,7 +19,7 @@
             background-position: center;
         }
 
-        .container {
+        .container-acc {
             max-width: 500px;
             margin: 0 auto;
             padding: 2rem 1rem;
@@ -97,7 +97,37 @@
     }
     ?>
 
-    <div class="container">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.php">BOS BARBERSHOP</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.php">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.php">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-acc mt-5">
         <h1>Account Profile</h1>
         <form method="POST">
             <div class="mb-3">

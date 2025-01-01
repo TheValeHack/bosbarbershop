@@ -101,6 +101,11 @@
                 grid-template-columns: 1fr;
             }
         }
+        @media screen and (min-width:768px){
+            .services-container {
+                background-image: url('img/home-desktop.jpg');
+            }
+        }
     </style>
 </head>
 <body>

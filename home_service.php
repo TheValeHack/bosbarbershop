@@ -91,7 +91,7 @@
         <h1>Person Service</h1>
         <div class="price-list-container">
             <img src="img/SnK.jpg" alt="Price List">
-            <a href="https://wa.me/6285742345929" class="btn btn-success px-5 py-3 mt-4" style="font-size:20px; border-radius:100px">Chat Whatsapp</a>
+            <a href="http://wa.me/62895364911317" class="btn btn-success px-5 py-3 mt-4" style="font-size:20px; border-radius:100px">Chat Whatsapp</a>
         </div>
         <footer>
             Nikmati kenyamanan potong rambut bersama <span>Bos Barbershop</span>! <span class="emoji">🎉</span>

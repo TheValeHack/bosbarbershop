@@ -27,7 +27,11 @@
             justify-items: center;
             align-items: center;
         }
- 
+        @media (min-width:768px){
+            .hero {
+                background-image: url('img/gift-desktop.jpg');
+            }
+        }
     </style>
 </head>
 <body>

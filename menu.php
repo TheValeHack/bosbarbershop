@@ -73,6 +73,11 @@
             margin-top: 30px;
             font-weight: 300;
         }
+        @media screen and (min-width:768px){
+            body {
+                background-image: url('img/home-desktop.jpg');
+            }
+        }
     </style>
 </head>
 <body>

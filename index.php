@@ -15,7 +15,7 @@
         /* Hero Section */
         .hero {
             height: 100vh;
-            background-color: #f8f9fa;
+            background-color: black;
             position: relative;
             background-image: url('img/menu.jpg');
             background-size: cover;
@@ -78,6 +78,12 @@
         .star-rating {
             color: #ffd700;
         }
+
+        @media screen and (min-width:768px){
+            .hero {
+                background-image: url('img/home-desktop.jpg');
+            }
+        }
     </style>
 </head>
 <body>
@@ -113,9 +119,9 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1 class="display-4"><span>WELCOME TO BOS BARBERSHOP</span></h1>
+            <h1 class="display-4 fw-bolder"><span>WELCOME TO BOS BARBERSHOP</span></h1>
             <p class="lead">Come for the Grooming. Stay for the Booze</p>
-            <a href="#" class="btn btn-dark btn-lg">LETS GO</a>
+            <a href="menu.php" class="btn btn-dark btn-lg">LETS GO</a>
         </div>
     </section>
 
